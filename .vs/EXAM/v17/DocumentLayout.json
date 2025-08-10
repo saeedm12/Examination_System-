@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Backend\\C# Projects\\OOP\\EXAM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\trueorfalse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\trueorfalse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\practicalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\practicalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\mcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\mcq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\baseexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\baseexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|d:\\backend\\c# projects\\oop\\exam\\exam\\finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C306EB2-5B1E-408A-B1DA-0A4B1EED1889}|EXAM\\EXAM.csproj|solutionrelative:exam\\finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Subject.cs",
+              "RelativeDocumentMoniker": "EXAM\\Subject.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Subject.cs",
+              "RelativeToolTip": "EXAM\\Subject.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwvxwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T00:39:17.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PracticalExam.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\PracticalExam.cs",
+              "RelativeDocumentMoniker": "EXAM\\PracticalExam.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\PracticalExam.cs",
+              "RelativeToolTip": "EXAM\\PracticalExam.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T00:19:37.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FinalExam.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\FinalExam.cs",
+              "RelativeDocumentMoniker": "EXAM\\FinalExam.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\FinalExam.cs",
+              "RelativeToolTip": "EXAM\\FinalExam.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T00:04:12.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Answers.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Answers.cs",
+              "RelativeDocumentMoniker": "EXAM\\Answers.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Answers.cs",
+              "RelativeToolTip": "EXAM\\Answers.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T22:38:59.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Program.cs",
+              "RelativeDocumentMoniker": "EXAM\\Program.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Program.cs",
+              "RelativeToolTip": "EXAM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T21:31:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseExam.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\BaseExam.cs",
+              "RelativeDocumentMoniker": "EXAM\\BaseExam.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\BaseExam.cs",
+              "RelativeToolTip": "EXAM\\BaseExam.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T22:20:37.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrueOrFalse.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\TrueOrFalse.cs",
+              "RelativeDocumentMoniker": "EXAM\\TrueOrFalse.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\TrueOrFalse.cs",
+              "RelativeToolTip": "EXAM\\TrueOrFalse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T21:56:43.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MCQ.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\MCQ.cs",
+              "RelativeDocumentMoniker": "EXAM\\MCQ.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\MCQ.cs",
+              "RelativeToolTip": "EXAM\\MCQ.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T21:56:21.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Question.cs",
+              "RelativeDocumentMoniker": "EXAM\\Question.cs",
+              "ToolTip": "D:\\Backend\\C# Projects\\OOP\\EXAM\\EXAM\\Question.cs",
+              "RelativeToolTip": "EXAM\\Question.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T21:33:10.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

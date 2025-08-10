@@ -1,0 +1,14 @@
+D:\Backend\C# Projects\OOP\EXAM\EXAM\bin\Debug\net9.0\EXAM.exe
+D:\Backend\C# Projects\OOP\EXAM\EXAM\bin\Debug\net9.0\EXAM.deps.json
+D:\Backend\C# Projects\OOP\EXAM\EXAM\bin\Debug\net9.0\EXAM.runtimeconfig.json
+D:\Backend\C# Projects\OOP\EXAM\EXAM\bin\Debug\net9.0\EXAM.dll
+D:\Backend\C# Projects\OOP\EXAM\EXAM\bin\Debug\net9.0\EXAM.pdb
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.AssemblyInfoInputs.cache
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.AssemblyInfo.cs
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.csproj.CoreCompileInputs.cache
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.dll
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\refint\EXAM.dll
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.pdb
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\EXAM.genruntimeconfig.cache
+D:\Backend\C# Projects\OOP\EXAM\EXAM\obj\Debug\net9.0\ref\EXAM.dll
