@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home";
+}
+<div class="row g-4">
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Create Subject</h5>
+                <p class="card-text">Start by defining a subject with an ID and name.</p>
+                <a class="btn btn-primary" href="@Url.Action("Create","Subjects")">Create Subject</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Build Exam</h5>
+                <p class="card-text">Configure exam type, duration, and questions.</p>
+                <a class="btn btn-outline-primary" href="@Url.Action("Build","Exams")">Build Exam</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Take Exam</h5>
+                <p class="card-text">Preview the exam-taking experience.</p>
+                <a class="btn btn-outline-secondary" href="@Url.Action("Take","Exams")">Take Exam</a>
+            </div>
+        </div>
+    </div>
+</div>

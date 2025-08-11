@@ -1,0 +1,23 @@
+@model Exam.Web.Models.SubjectViewModel
+@{
+    ViewData["Title"] = "Create Subject";
+}
+<h1 class="mb-4">Create Subject</h1>
+<form asp-action="Create" method="post" class="needs-validation" novalidate>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <label asp-for="SubjectId" class="form-label"></label>
+            <input asp-for="SubjectId" class="form-control" />
+            <span asp-validation-for="SubjectId" class="text-danger"></span>
+        </div>
+        <div class="col-md-8">
+            <label asp-for="SubjectName" class="form-label"></label>
+            <input asp-for="SubjectName" class="form-control" />
+            <span asp-validation-for="SubjectName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="mt-4 d-flex gap-2">
+        <button class="btn btn-primary" type="submit">Continue</button>
+        <a class="btn btn-secondary" href="@Url.Action("Index","Home")">Cancel</a>
+    </div>
+</form>
