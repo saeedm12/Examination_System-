@@ -1,0 +1,6 @@
+body{scroll-behavior:smooth}
+.navbar .navbar-brand{letter-spacing:.2px}
+.card{border-radius: .75rem}
+.card .card-body{padding:1.25rem 1.25rem}
+.btn{border-radius:.5rem}
+.list-group-item{border-left:0;border-right:0}

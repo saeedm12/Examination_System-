@@ -1,0 +1,145 @@
+@model Exam.Web.Models.ExamBuilderViewModel
+@{
+    ViewData["Title"] = "Build Exam";
+}
+<h1 class="mb-4">Build Exam</h1>
+<form asp-action="Build" method="post" id="examBuilderForm">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label class="form-label" asp-for="ExamType"></label>
+                    <select class="form-select" asp-for="ExamType">
+                        <option value="1">Final (MCQ + True/False)</option>
+                        <option value="2">Practical (MCQ only)</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" asp-for="DurationMinutes"></label>
+                    <input class="form-control" asp-for="DurationMinutes" />
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label" asp-for="NumberOfQuestions"></label>
+                    <input class="form-control" asp-for="NumberOfQuestions" />
+                </div>
+            </div>
+            <input type="hidden" asp-for="SubjectId" />
+            <input type="hidden" asp-for="SubjectName" />
+        </div>
+    </div>
+
+    <div id="questionsList" class="d-grid gap-3">
+        @for (int i = 0; i < Model.Questions.Count; i++)
+        {
+            <partial name="_QuestionCard" for="Questions[i]" />
+        }
+    </div>
+
+    <div class="mt-3 d-flex gap-2">
+        <button type="button" class="btn btn-outline-primary" id="addQuestionBtn">Add Question</button>
+        <button type="submit" class="btn btn-primary">Preview Exam</button>
+        <a class="btn btn-secondary" href="@Url.Action("Index","Home")">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+<script>
+(function(){
+  const list = document.getElementById('questionsList');
+  const addBtn = document.getElementById('addQuestionBtn');
+
+  function buildQuestionCard(index){
+    const wrapper = document.createElement('div');
+    wrapper.className = 'card shadow-sm';
+    wrapper.innerHTML = `
+<div class="card-body">
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <h5 class="card-title mb-0">Question <span class="q-index">${index+1}</span></h5>
+    <button type="button" class="btn btn-sm btn-outline-danger remove-question">Remove</button>
+  </div>
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label" for="Questions_${index}__Header">Question Header</label>
+      <input class="form-control" id="Questions_${index}__Header" name="Questions[${index}].Header" />
+    </div>
+    <div class="col-md-6">
+      <label class="form-label" for="Questions_${index}__Body">Question Body</label>
+      <input class="form-control" id="Questions_${index}__Body" name="Questions[${index}].Body" />
+    </div>
+    <div class="col-md-3">
+      <label class="form-label" for="Questions_${index}__Mark">Mark</label>
+      <input class="form-control" id="Questions_${index}__Mark" name="Questions[${index}].Mark" type="number" value="1" />
+    </div>
+    <div class="col-md-3">
+      <label class="form-label" for="Questions_${index}__Type">Type</label>
+      <select class="form-select q-type" id="Questions_${index}__Type" name="Questions[${index}].Type">
+        <option value="1" selected>Multiple Choice</option>
+        <option value="2">True / False</option>
+      </select>
+    </div>
+  </div>
+  <div class="answers mt-3">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <div class="fw-semibold">Answers</div>
+      <button type="button" class="btn btn-sm btn-outline-secondary add-answer">Add Answer</button>
+    </div>
+    <div class="answers-list d-grid gap-2"></div>
+  </div>
+</div>`;
+
+    const answersList = wrapper.querySelector('.answers-list');
+    function addAnswerRow(text="", isCorrect=false){
+      const idx = answersList.children.length;
+      const row = document.createElement('div');
+      row.className = 'row g-2 align-items-center';
+      row.innerHTML = `
+<div class="col">
+  <input class="form-control" name="Questions[${index}].Answers[${idx}].Text" value="${text}" placeholder="Answer text" />
+</div>
+<div class="col-auto form-check">
+  <input class="form-check-input" type="checkbox" name="Questions[${index}].Answers[${idx}].IsCorrect" ${isCorrect?"checked":""} />
+  <label class="form-check-label">Correct</label>
+</div>
+<div class="col-auto">
+  <button type="button" class="btn btn-sm btn-outline-danger remove-answer">Remove</button>
+</div>`;
+      answersList.appendChild(row);
+      row.querySelector('.remove-answer').addEventListener('click', ()=> row.remove());
+    }
+    // default two answers
+    addAnswerRow("Choice 1");
+    addAnswerRow("Choice 2");
+
+    wrapper.querySelector('.add-answer').addEventListener('click', ()=> addAnswerRow());
+    wrapper.querySelector('.remove-question').addEventListener('click', ()=> {
+      wrapper.remove();
+      renumberQuestions();
+    });
+
+    const typeSelect = wrapper.querySelector('.q-type');
+    typeSelect.addEventListener('change', ()=>{
+      if (typeSelect.value === '2'){
+        answersList.innerHTML = '';
+        addAnswerRow('True');
+        addAnswerRow('False');
+      }
+    });
+
+    return wrapper;
+  }
+
+  function renumberQuestions(){
+    [...list.children].forEach((card, idx)=>{
+      const h = card.querySelector('.q-index');
+      if (h) h.textContent = (idx+1).toString();
+    });
+  }
+
+  addBtn?.addEventListener('click', ()=>{
+    const idx = list.children.length;
+    list.appendChild(buildQuestionCard(idx));
+    renumberQuestions();
+  });
+})();
+</script>
+}
